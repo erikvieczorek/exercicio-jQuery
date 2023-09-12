@@ -1,0 +1,65 @@
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  margin-left: 10px;
+  width: 640px;
+  background-color: #b296e9;
+  font-family: 'IBM Plex Sans', sans-serif;
+}
+
+h1{
+  font-family: 'Fredericka the Great', cursive;
+  font-size: 64px;
+  text-align: center;
+  padding-top: 20px;
+}
+
+h2 {
+  font-size: 26px;
+  background-color: #a67ef8;
+  padding: 0 10px;
+}
+
+input {
+  padding: 2px 0;
+  margin-left: 8px;
+  width: 360px;
+  font-size: 18px;
+}
+
+li{
+  margin-left: 14px;
+}
+button{
+  font-size: 18px;
+  font-weight: 700;
+  background-color:rgb(124, 185, 185);
+  border: none;
+}
+
+button:hover{
+  background-color: rgb(73, 124, 124);
+  cursor: pointer;
+}
+
+#reset {
+  background-color: #f57b6b;
+}
+
+#reset:hover {
+  background-color: #f35945;  
+}
+
+
+#lista-tarefas {
+    background-color: rgb(131, 160, 160);
+    font-size: 28px;
+    font-family: 'Handlee', cursive;
+}
+
+.concluida {
+  text-decoration: line-through;
+}
+
