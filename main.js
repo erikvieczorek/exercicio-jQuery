@@ -4,10 +4,15 @@ $(document).ready(function() {
 
     var novaTarefa = $("#nova-tarefa").val();
 
-    if (novaTarefa !== "") {
+    if (novaTarefa.trim() !== "") {
         var novoItem = $("<li></li>").text(novaTarefa);
         $("#lista-tarefas").append(novoItem);
-        $("#nova-tarefa").val("")};
+        $("#nova-tarefa").val("");
+      } else {
+        alert("Por favor, insira uma descrição para a tarefa.");    
+      }
+
+
       });
 
     $("#lista-tarefas").on("click", "li", function() {

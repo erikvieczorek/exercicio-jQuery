@@ -7,6 +7,7 @@
   width: 640px;
   background-color: #b296e9;
   font-family: 'IBM Plex Sans', sans-serif;
+  border-radius: 10px;
 }
 
 h1{
@@ -20,6 +21,7 @@ h2 {
   font-size: 26px;
   background-color: #a67ef8;
   padding: 0 10px;
+  text-align: center;
 }
 
 input {
@@ -27,29 +29,35 @@ input {
   margin-left: 8px;
   width: 360px;
   font-size: 18px;
+  border-radius: 4px;
+  text-align: center;
 }
 
 li{
   margin-left: 14px;
+  transition: opacity 0.3s ease;
 }
+
 button{
   font-size: 18px;
   font-weight: 700;
-  background-color:rgb(124, 185, 185);
+  background-color: #4CAF50;
+  color: white;
   border: none;
+  border-radius: 3px;
 }
 
 button:hover{
-  background-color: rgb(73, 124, 124);
+  background-color: #45a049;
   cursor: pointer;
 }
 
 #reset {
-  background-color: #f57b6b;
+  background-color: #f73117;
 }
 
 #reset:hover {
-  background-color: #f35945;  
+  background-color: #c03927;  
 }
 
 
@@ -57,9 +65,11 @@ button:hover{
     background-color: rgb(131, 160, 160);
     font-size: 28px;
     font-family: 'Handlee', cursive;
+    border-radius: 10px;
 }
 
 .concluida {
   text-decoration: line-through;
+  opacity: 0.5;
 }
 
